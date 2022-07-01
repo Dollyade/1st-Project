@@ -1,0 +1,36 @@
+.contact-section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contact-info {
+  max-width: 500px;
+  line-height: 65px;
+  padding-left: 50px;
+  font-size: 18px;
+}
+.contact-info i {
+  margin-right: 20px;
+  font-size: 25px;
+}
+.contact-form {
+  text-align: justify;
+}
+.contact-info,
+.contact-form {
+  flex: 1;
+}
+.contact-form h2 {
+  text-align: center;
+  font-size: 35px;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+.contact-form,
+.text-box {
+  background: -moz-element(20);
+}
+.contact-bar {
+  color: rgb(244, 248, 243);
+}
